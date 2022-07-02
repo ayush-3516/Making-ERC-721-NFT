@@ -3,7 +3,7 @@ async function main() {
   
     // Start deployment, returning a promise that resolves to a contract object
     const nftContract = await NFTcontract.deploy();
-    console.log("Contract deployed to address:", NFTcontract.address);
+    console.log("Contract deployed to address:", nftContract.address);
   }
   
   main()
@@ -12,4 +12,3 @@ async function main() {
       console.error(error);
       process.exit(1);
     });
-  //0x271D2BeB5db7266Cd34D512C8F8c06AD247fab4a
