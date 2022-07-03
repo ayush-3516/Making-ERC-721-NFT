@@ -6,6 +6,7 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
 const web3 = createAlchemyWeb3(API_URL);
 
+// Providing the ABI of the deployed contract
 const contract = require("../artifacts/contracts/NFTcontract.sol/NFTcontract.json");
 
 // console.log(JSON.stringify(contract.abi));
