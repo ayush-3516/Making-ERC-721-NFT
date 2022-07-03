@@ -13,6 +13,7 @@ contract NFTcontract is ERC721URIStorage, Ownable {
 
     constructor() ERC721("Ayush.eth", "AC3") {}
 
+    // Function to mint the NFT
     function mintNFT(address recepient, string memory tokenURI)
         public
         onlyOwner
