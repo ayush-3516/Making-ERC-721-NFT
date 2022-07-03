@@ -3,6 +3,7 @@ async function main() {
   
     // Start deployment, returning a promise that resolves to a contract object
     const nftContract = await NFTcontract.deploy();
+    // Displaying the Contract Address after being Deployed
     console.log("Contract deployed to address:", nftContract.address);
   }
   
