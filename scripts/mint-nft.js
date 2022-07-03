@@ -53,3 +53,5 @@ async function mintNFT(tokenURI) {
 mintNFT(
   "https://gateway.pinata.cloud/ipfs/QmWx6sHLf7Xz2PttXuMwCTfVyeT9HR9KH9Gyqi3Ydaq2GE"
 );  
+
+//The hash of the transaction is: 0xc54ccf5366b3eea62f404c1a57757750487967ffedaa4ff65d7d76048a52f4b2
